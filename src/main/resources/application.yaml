@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name:  oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:FREE
+    username: C##BATCH58
+    password: 7979946093
+
+  jpa:
+    hibernate:
+      ddl-auto:  update
+
+    show-sql: true
+
+    properties:
+      hibernate:
+       format-sql: true 
+       
+
+    
